@@ -1,6 +1,6 @@
 import DownArrow from '../images/down-arrow.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFilter, faGear, faUser, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { faFilter, faGear, faUser, faMagnifyingGlass, faArrowDownShortWide, faArrowUpWideShort } from '@fortawesome/free-solid-svg-icons'
 
 const Filters = () => {
   return (
@@ -25,10 +25,17 @@ const Filters = () => {
           <button><FontAwesomeIcon icon={faGear} /></button>
           <button><FontAwesomeIcon icon={faFilter} />Filters</button>
         </div>
-
       </div>
       <div id='detailed-filter'>
-
+      <button className='check-box'></button>
+      <button className='filter-button selected'>First Name <FontAwesomeIcon icon={faArrowDownShortWide} /></button>
+      <button className='filter-button'>Company <FontAwesomeIcon icon={faArrowUpWideShort} /></button>
+      <button className='filter-button'>Title <FontAwesomeIcon icon={faArrowUpWideShort} /></button>
+      <button className='filter-button'>Email <FontAwesomeIcon icon={faArrowUpWideShort} /></button>
+      <button className='filter-button'>Owned By <FontAwesomeIcon icon={faArrowUpWideShort} /></button>
+      <button className='filter-button'>Street </button>
+      <button className='filter-button'>Created <FontAwesomeIcon icon={faArrowUpWideShort} /></button>
+      <button className='filter-button'>Last Contacted <FontAwesomeIcon icon={faArrowUpWideShort} /></button>
       </div>
     </div>
   )

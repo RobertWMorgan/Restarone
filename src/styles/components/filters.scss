@@ -57,16 +57,38 @@
       }
     }
 
-    #filter-right{
-     button{
-      background-color: white;
-      border: none;
-      color: $secondary-grey;
-      margin-left: 0.5em;
-     }
+    #filter-right {
+      button {
+        background-color: white;
+        border: none;
+        color: $secondary-grey;
+        margin-left: 0.5em;
+      }
     }
   }
 
+  #detailed-filter{
+    padding: 1% 2% 1% 2%;
+    border-bottom: 3px solid $primary-grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    .filter-button{
+      background-color: white;
+      border: none;
+      color: $secondary-grey;
+    }
 
+    .selected{
+      color: $text-blue;
+    }
+  }
 
+}
+
+.check-box{
+  padding: 0.5%;
+  background-color: white;
+  border: 1px solid black;
 }
