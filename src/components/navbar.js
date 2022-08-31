@@ -1,7 +1,13 @@
+
 const Navbar = () => {
   return(
     <nav>
-      <h1>This is the Nav</h1>
+      
+      <h1>People</h1>
+      <input type="text" name="emailAddress" placeholder="  Search by name, email, domain or phone number" value="" />
+      <div id='icons'>
+        <p>Parking</p>
+      </div>
     </nav>
   )
 }

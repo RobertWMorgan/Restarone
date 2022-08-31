@@ -1,6 +1,6 @@
 // Component Imports
 import Sidebar from "./components/sidebar"
-import Navbar from "./components/navbar"
+import NavBar from "./components/navbar"
 import Filters from "./components/filters"
 import Contactlist from "./components/contactlist"
 
@@ -9,7 +9,7 @@ const App = () => {
     <div id="site-wrapper">
       <Sidebar />
       <main>
-        <Navbar />
+        <NavBar />
         <Filters />
         <Contactlist />
       </main>
