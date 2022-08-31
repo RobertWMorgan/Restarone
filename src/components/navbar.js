@@ -14,8 +14,8 @@ const Navbar = () => {
       <div id='nav-icons'>
         <button className='nav-icon'><img src={Plus} alt='Add New' /></button>
         <button className='nav-icon'><img src={Notification} alt='Notification Bell' /><Badge id='notif-num' bg="danger">47</Badge></button>
-        <button className='nav-icon'><img src={Profile} alt='Profile' /></button>
-        <button className='nav-icon'><img src={Question} alt='Question and FAQ' /></button>
+        <button className='nav-icon'><img id='profile' src={Profile} alt='Profile' /></button>
+        <button  className='nav-icon'><img id='question' src={Question} alt='Question and FAQ' /></button>
       </div>
     </nav>
   )
