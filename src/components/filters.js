@@ -1,4 +1,6 @@
 import DownArrow from '../images/down-arrow.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFilter, faGear, faUser, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 const Filters = () => {
   return (
@@ -18,14 +20,13 @@ const Filters = () => {
           </div>
         </div>
         <div id='filter-right'>
+          <button><FontAwesomeIcon icon={faMagnifyingGlass} /></button>
+          <button><FontAwesomeIcon icon={faUser} /></button>
+          <button><FontAwesomeIcon icon={faGear} /></button>
+          <button><FontAwesomeIcon icon={faFilter} />Filters</button>
         </div>
 
       </div>
-
-
-
-
-
       <div id='detailed-filter'>
 
       </div>
