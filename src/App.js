@@ -1,8 +1,17 @@
-
+// Component Imports
+import Sidebar from "./components/sidebar"
+import Navbar from "./components/navbar"
+import Filters from "./components/filters"
+import Contactlist from "./components/contactlist"
 
 const App = () => {
   return (
-    <h1>Hello World</h1>
+    <div id="site-wrapper">
+      <Sidebar />
+      <Navbar />
+      <Filters />
+      <Contactlist />
+    </div>
   )
 }
 
