@@ -1,5 +1,5 @@
 nav {
-  border: 1px solid black;
+  box-shadow: 0 0 10px 0 #888888;
   padding-top: 1%;
   padding-bottom: 1%;
   display: flex;
@@ -16,7 +16,7 @@ nav {
     width: 50%;
     border: none;
     background-color: rgb(233 233 233);
-    border-radius: 10px;
+    border-radius: 15px;
     background-image: url(../../images/Magnifying_glass_icon.svg);
     background-size: 13px;
     background-repeat: no-repeat;
@@ -33,6 +33,16 @@ nav {
     .nav-icon{
       border: none;
       background-color: white;
+      position: relative;
+
+      #notif-num{
+        position: absolute;
+        padding: 3px;
+        border-radius: 40px;
+        display: block;
+        right: 10px;
+        top: 0px;
+      }
       img{
         width: 60%;
       }
