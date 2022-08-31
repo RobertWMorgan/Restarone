@@ -1,3 +1,18 @@
-h1{
-  color: red;
+@import './components/sidebar.scss';
+
+
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#site-wrapper{
+  display: flex;
+}
+
+main{
+  width: 100%;
+  background-color: yellow;
 }

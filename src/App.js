@@ -8,9 +8,11 @@ const App = () => {
   return (
     <div id="site-wrapper">
       <Sidebar />
-      <Navbar />
-      <Filters />
-      <Contactlist />
+      <main>
+        <Navbar />
+        <Filters />
+        <Contactlist />
+      </main>
     </div>
   )
 }
