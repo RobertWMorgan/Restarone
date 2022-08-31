@@ -1,3 +1,7 @@
+import Notification from '../images/notif_bell.svg'
+import Plus from '../images/plus.svg'
+import Profile from '../images/profile.svg'
+import Question from '../images/question-mark.svg'
 
 const Navbar = () => {
   return(
@@ -5,8 +9,11 @@ const Navbar = () => {
       
       <h1>People</h1>
       <input type="text" name="emailAddress" placeholder="  Search by name, email, domain or phone number" value="" />
-      <div id='icons'>
-        <p>Parking</p>
+      <div id='nav-icons'>
+        <button className='nav-icon'><img src={Plus} alt='Add New' /></button>
+        <button className='nav-icon'><img src={Notification} alt='Notification Bell' /></button>
+        <button className='nav-icon'><img src={Profile} alt='Profile' /></button>
+        <button className='nav-icon'><img src={Question} alt='Question and FAQ' /></button>
       </div>
     </nav>
   )
