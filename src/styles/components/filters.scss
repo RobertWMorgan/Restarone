@@ -1,0 +1,45 @@
+@import './variables.scss';
+
+#filters {
+  margin-left: 2%;
+  margin-top: 1%;
+
+  #filter-left {
+    display: flex;
+
+    #people-dropdown {
+      margin-right: 2%;
+      select {
+        padding: 0.3rem 0.5rem;
+        border: 1px solid $primary-grey;
+      }
+    }
+
+    #btn-add {
+      background-color: $secondary-blue;
+      color: white;
+      border: none;
+      border-top-left-radius: 15px;
+      border-bottom-left-radius: 15px;
+      font-size: 0.8em;
+      font-weight: bold;
+      padding: 0 1.1%;
+    }
+
+    #btn-add-dropdown {
+      display: inline-block;
+      background-color: $secondary-blue;
+      color: white;
+      border: none;
+      border-top-right-radius: 15px;
+      border-bottom-right-radius: 15px;
+      button{
+        padding: 0;
+      }
+      #add-dropdown-arrow{
+        width: 20%;
+      }
+    }
+  }
+
+}

@@ -1,15 +1,18 @@
 @import './components/sidebar.scss';
 @import './components/navbar.scss';
+@import './components/filters.scss';
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
 }
 
-#site-wrapper{
+$primary-grey: rgb(233, 233, 233);
+
+#site-wrapper {
   display: flex;
 }
 
-main{
+main {
   width: 100%;
 }
