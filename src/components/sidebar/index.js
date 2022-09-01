@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXmark, faEllipsis } from '@fortawesome/free-solid-svg-icons'
 
 import Profile from '../../images/profile-image.png'
+import Logo from '../../images/copper-logo.svg'
 
 const Sidebar = () => {
 
@@ -20,7 +21,7 @@ const Sidebar = () => {
         <FontAwesomeIcon id='X' size='2x' inverse icon={faXmark} />
       </div>
       <LinkButtons />
-      <h1>:copper</h1>
+      <img src={Logo} id='copper-logo' alt='Copper CRM Logo' />
       <FontAwesomeIcon id='ellipsis' size='lg' inverse icon={faEllipsis} />
     </aside>
   )
