@@ -1,4 +1,3 @@
-import Badge from 'react-bootstrap/Badge'
 import LinkButtons from './link-buttons'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
