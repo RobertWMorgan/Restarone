@@ -1,7 +1,41 @@
+@import './variables.scss';
+
 #sidebar {
-  width: 10%;
+  width: 15%;
   height: 100vh;
-  background-color: red;
-  
+  background-color: rgba(49, 29, 64, 255);
+  padding-top: 0.5%;
   padding-left: 0.5%;
+  border-right: 1px solid black;
+
+  #profile {
+    display: flex;
+    color: $secondary-grey;
+    align-items: center;
+
+    p {
+      margin: 0 2rem 0 1rem;
+    }
+
+    #subtext {
+      font-size: 0.8rem;
+    }
+
+    #profile-image {
+      width: 4rem;
+      height: 4rem;
+      overflow: hidden;
+      border-radius: 50px;
+      margin-left: 5%;
+
+      img {
+        width: 100%;
+      }
+
+      #X {
+        flex-grow: 1;
+        color: white;
+      }
+    }
+  }
 }
