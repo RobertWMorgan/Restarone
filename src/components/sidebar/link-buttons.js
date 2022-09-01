@@ -21,7 +21,6 @@ const LinkButtons = () => {
   })
 
   return buttonMap
-
 }
 
 export default LinkButtons

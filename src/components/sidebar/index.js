@@ -1,7 +1,7 @@
 import LinkButtons from './link-buttons'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faXmark } from '@fortawesome/free-solid-svg-icons'
+import { faXmark, faEllipsis } from '@fortawesome/free-solid-svg-icons'
 
 import Profile from '../../images/profile-image.png'
 
@@ -20,6 +20,8 @@ const Sidebar = () => {
         <FontAwesomeIcon id='X' size='2x' inverse icon={faXmark} />
       </div>
       <LinkButtons />
+      <h1>:copper</h1>
+      <FontAwesomeIcon id='ellipsis' size='lg' inverse icon={faEllipsis} />
     </aside>
   )
 }

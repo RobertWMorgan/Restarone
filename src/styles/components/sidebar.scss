@@ -6,6 +6,7 @@
   background-color: $primary-blue;
   padding-top: 0.5%;
   border-right: 1px solid black;
+  position: relative;
 
   #profile {
     display: flex;
@@ -81,5 +82,16 @@
     border-bottom: 1px solid $secondary-grey;
   }
 
+  h1 {
+    color: white;
+    position: absolute;
+    bottom: 1%;
+    left: 5%;
+  }
 
+  #ellipsis {
+    position: absolute;
+    bottom: 3%;
+    right: 10%;
+  }
 }
