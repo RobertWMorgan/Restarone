@@ -1,4 +1,4 @@
-import FilterButton from './filter-button'
+import FilterButton from './filter-buttons'
 
 import DownArrow from '../../images/down-arrow.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
