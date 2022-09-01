@@ -1,7 +1,7 @@
 // Component Imports
 import Sidebar from "./components/sidebar"
 import NavBar from "./components/navbar"
-import Filters from "./components/filters"
+import Filters from "./components/filters/index"
 import Contactlist from "./components/contactlist"
 
 const App = () => {

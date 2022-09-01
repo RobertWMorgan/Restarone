@@ -9,7 +9,9 @@ const Navbar = () => {
   return(
     <nav>
       
-      <h1>People</h1>
+      <div id='navh1'>
+        <h1>People</h1> 
+      </div>
       <input type="text" name="emailAddress" placeholder="  Search by name, email, domain or phone number" value="" />
       <div id='nav-icons'>
         <button className='nav-icon'><img src={Plus} alt='Add New' /></button>

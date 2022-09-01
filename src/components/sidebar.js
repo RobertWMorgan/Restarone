@@ -1,7 +1,15 @@
+import Badge from 'react-bootstrap/Badge'
+import { faHouse } from '@fortawesome/free-solid-svg-icons'
+
 const Sidebar = () => {
   return(
     <aside id="sidebar">
-      <h1>This is the sidebar</h1>
+      <div id='profile'>
+        
+      </div>
+      <button>
+        <a><Badge bg='info' text='primary'>1</Badge>Dashboard</a>
+      </button>
     </aside>
   )
 }
