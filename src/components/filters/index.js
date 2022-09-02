@@ -1,12 +1,9 @@
-import FilterButton from './filter-buttons'
 
 import DownArrow from '../../images/down-arrow.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFilter, faGear, faUser, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 
 const Filters = () => {
-  const filterList = ['First Name', 'Company', 'Title', 'Email', 'Owned By', 'Street', 'Created', 'Last Contacted']
-
   return (
     <div id="filters">
       <div id='top-filter'>
@@ -29,10 +26,6 @@ const Filters = () => {
           <button><FontAwesomeIcon icon={faGear} /></button>
           <button><FontAwesomeIcon icon={faFilter} />Filters</button>
         </div>
-      </div>
-      <div id='detailed-filter'>
-        <button className='check-box'></button>
-        <FilterButton filterList={filterList} />
       </div>
     </div>
   )

@@ -66,30 +66,4 @@
       }
     }
   }
-
-  #detailed-filter{
-    padding: 1% 2% 1% 2%;
-    border-bottom: 3px solid $primary-grey;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-    .filter-button{
-      background-color: white;
-      border: none;
-      color: $secondary-grey;
-    }
-
-    .selected{
-      color: $text-blue;
-    }
-  }
-
-}
-
-.check-box{
-  width: 20px;
-  height: 20px;
-  background-color: white;
-  border: 1px solid black;
 }

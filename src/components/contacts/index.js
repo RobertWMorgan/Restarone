@@ -1,23 +1,29 @@
 import ContactData from './contact-data'
+import FilterButton from '../filters/filter-buttons'
+import Star from '../../images/star.png'
+
 
 const Contactlist = () => {
+  const filterList = ['First Name', 'Company', 'Title', 'Email', 'Owned By', 'Street', 'Created', 'Last Contacted']  
   console.log(ContactData)
-  const contactRow = ContactData.map((contact, index) => {
-    return (
-      <div key={index} className='contact-row'>
-        <span><button id='check-square' className='check-box'></button></span>
-        <span>{contact.name}</span> <span>{contact.company}</span> <span>{contact.title}</span> <span>{contact.email}</span> <span>{contact.owner}</span> <span>{contact.street}</span> <span>{contact.dateCreated}</span> <span>{contact.lastContact}</span>
-      </div>
-    )
 
 
-  })
 
-  return (
-    <main id='contacts'>
-      {contactRow}
-    </main>
-  )
+return(
+  <main>
+    <table>
+      <tr id='header-row'>
+        <th><button className='check-box'></button></th>
+        <FilterButton filterList={filterList} />
+      </tr>
+    </table>
+  </main>
+)
+
+
+
+
+
 }
 
 export default Contactlist
