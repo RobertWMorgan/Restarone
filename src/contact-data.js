@@ -2,10 +2,10 @@ const ContactData = [
   {
     name: `""><img srcx onerror=prompt(/xss/);><""`,
     company: `tested12's Company`,
-    title: null,
+    title: '-',
     email: 'zealmaker1@gmail.com',
     owner: 'David Da Silva',
-    street: null,
+    street: '-',
     dateCreated: '10/19/2021',
     lastContact: '4/28/2022',
     initials: 'IO',
@@ -14,122 +14,122 @@ const ContactData = [
   {
     name: `"-alert(document.domain)-"`,
     company: 'Maillak',
-    title: null,
+    title: '-',
     email: 'wosovip821@maillak.com',
     owner: 'David Da Silva',
-    street: null,
+    street: '-',
     dateCreated: '10/19/2021',
-    lastContact: null,
+    lastContact: '-',
     initials: 'A',
-    phone: null
+    phone: '-'
   },
   {
     name: `The Soapman' Soapman`,
     company: `The Soapman's Company`,
-    title: null,
+    title: '-',
     email: 'reginald@hmcgroupllc.com',
-    owner: null,
-    street: null,
+    owner: '-',
+    street: '-',
     dateCreated: '8/11/2016',
     lastContact: '8/16/2018',
     initials: 'TS',
-    phone: null
+    phone: '-'
   },
   {
     name: '#TNM Member Services',
     company: 'Tnmwordup',
-    title: null,
+    title: '-',
     email: 'memberservices@tnmwordup.com',
     owner: 'Marketo Integration',
-    street: null,
+    street: '-',
     dateCreated: '4/6/2018',
-    lastContact: null,
+    lastContact: '-',
     initials: 'TS',
-    phone: null
+    phone: '-'
   },
   {
     name: `&#39;Yulia Myshkovska&#39;`,
     company: 'Cloudastructure',
-    title: null,
+    title: '-',
     email: 'juliia@cloudastructure.com',
     owner: 'Kristi Lindstrom',
-    street: null,
+    street: '-',
     dateCreated: '12/30/2020',
-    lastContact: null,
+    lastContact: '-',
     initials: 'YM',
-    phone: null
+    phone: '-'
   },
   {
     name: `&lt;liz@airbornedronesco&gt;`,
     company: 'Airborne Drones',
-    title: null,
+    title: '-',
     email: 'liz@airbornedrones.co',
-    owner: null,
-    street: null,
+    owner: '-',
+    street: '-',
     dateCreated: '2/5/2021',
     lastContact: '2/15/2021',
     initials: 'L',
-    phone: null
+    phone: '-'
   },
   {
     name: 'Ale Bar Av',
     company: 'Cantera',
-    title: null,
+    title: '-',
     email: 'ale@cantera.co',
-    owner: null,
-    street: null,
+    owner: '-',
+    street: '-',
     dateCreated: '5/30/2018',
-    lastContact: null,
+    lastContact: '-',
     initials: 'AA',
-    phone: null
+    phone: '-'
   },
   {
     name: 'Armandeep Singh',
     company: 'Arrow PC Network Pvt. ltd.',
-    title: null,
+    title: '-',
     email: 'aman@arrowpc.co.in',
-    owner: null,
-    street: null,
+    owner: '-',
+    street: '-',
     dateCreated: '9/26/2016',
     lastContact: '8/16/2018',
     initials: 'AS',
-    phone: null
+    phone: '-'
   },
   {
     name: 'Amit Kumar Mandal',
     company: 'Cleartax',
-    title: null,
+    title: '-',
     email: 'amit.mandal@cleartax.in',
     owner: 'Anya Gayvoronskaya',
-    street: null,
+    street: '-',
     dateCreated: '8/23/2017',
     lastContact: '6/3/2019',
     initials: 'AS',
-    phone: null
+    phone: '-'
   },
   {
     name: 'Andreas Semmler',
     company: 'Werkmeister & Company GmbH',
-    title: null,
+    title: '-',
     email: 'andreas.semmler@werkco.de',
     owner: 'Self Serve',
-    street: null,
+    street: '-',
     dateCreated: '6/20/2018',
     lastContact: '7/11/2018',
     initials: 'AS',
-    phone: null
+    phone: '-'
   },
   {
     name: 'Anita Lam',
     company: 'Beyond Media Group',
-    title: null,
+    title: '-',
     email: 'alam@bmgww.com',
-    owner: null,
-    street: null,
+    owner: '-',
+    street: '-',
     dateCreated: '6/28/2016',
-    lastContact: null,
+    lastContact: '-',
     initials: 'AL',
-    phone: null
+    phone: '-'
   },
   {
     name: 'Annika DiMeo',
@@ -137,47 +137,47 @@ const ContactData = [
     title: 'Chief of Staff',
     email: 'annika@brandaiding.com',
     owner: 'Colin Nee',
-    street: null,
+    street: '-',
     dateCreated: '7/17/2020',
     lastContact: '9/23/2020',
     initials: 'AD',
-    phone: null
+    phone: '-'
   },
   {
     name: 'Azam Ameer',
     company: 'Dream Design Property',
-    title: null,
+    title: '-',
     email: 'azam.a@ddpproperty.com.au',
-    owner: null,
-    street: null,
+    owner: '-',
+    street: '-',
     dateCreated: '2/8/2016',
-    lastContact: null,
+    lastContact: '-',
     initials: 'AA',
-    phone: null
+    phone: '-'
   },
   {
     name: 'Barb Merill',
     company: 'Flathead Valley Brokers',
-    title: null,
+    title: '-',
     email: 'barb@fvbmt.com',
     owner: 'Nikolas Khachiyan',
-    street: null,
+    street: '-',
     dateCreated: '5/22/2019',
     lastContact: '5/22/2019',
     initials: 'BM',
-    phone: null
+    phone: '-'
   },
   {
     name: 'Brittany George',
     company: 'Midwest Engineering',
-    title: null,
+    title: '-',
     email: 'test@testing.com',
-    owner: null,
+    owner: '-',
     street: '1234 Main St',
     dateCreated: '5/4/2015',
     lastContact: '1/18/2016',
     initials: 'BG',
-    phone: null
+    phone: '-'
   },
 ]
 

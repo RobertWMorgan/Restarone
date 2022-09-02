@@ -4,7 +4,7 @@ import { faArrowDownShortWide, faArrowUpWideShort } from '@fortawesome/free-soli
 const FilterButton = ({ filterList }) => {
   const filterMap = filterList.map((filter, index) => {
     return filter === 'First Name' ?
-      <th key={index} className='filter-button selected'>{filterList[0]}<FontAwesomeIcon icon={faArrowDownShortWide} /></th>
+      <th id='table-icons' key={index} className='filter-button selected'>{filterList[0]}<FontAwesomeIcon icon={faArrowDownShortWide} /></th>
       :
       <th className='filter-button'>{filter}<FontAwesomeIcon icon={faArrowUpWideShort} /></th>
   })
